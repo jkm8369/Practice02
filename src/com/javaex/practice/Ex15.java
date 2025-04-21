@@ -2,7 +2,7 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class Ex15 {         //모르겠음
+public class Ex15 {         // 계산 할 수 없습니다가 안뜸
 
 	public static void main(String[] args) {
 		
@@ -20,21 +20,23 @@ public class Ex15 {         //모르겠음
 		System.out.print("숫자2: ");
 		double num2 = sc.nextDouble();
 		
-		if( symbol == "+"  ) {
+		if( symbol.equals("+") ) {
 			System.out.println("결과는: " + (num1+num2) + "입니다." );
 			
-		} else if( symbol == "-" ) {
+		} else if( symbol.equals("-") ) {
 			System.out.println("결과는: " + (num1-num2) + "입니다." );
 			
-		} else if( symbol == "*" ) {
+		} else if( symbol.equals("*") ) {
 			System.out.println("결과는: " + (num1*num2) + "입니다." );
 			
-		} else if( symbol == "/" ) {
+		} else if( symbol.equals("/") ) {
 			System.out.println("결과는: " + (num1/num2) + "입니다.");
 			
-		} else if( symbol == "/" && num2 == 0 ) {
+		} else if( symbol.equals("/") && num2 == 0 ) {
 			System.out.println("계산할 수 없습니다.");
 			
+		} else {
+			System.out.println("계산할 수 없는 기호입니다.");
 		}
 		
 		
