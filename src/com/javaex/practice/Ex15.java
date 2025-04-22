@@ -20,6 +20,23 @@ public class Ex15 {         // 계산 할 수 없습니다가 안뜸
 		System.out.print("숫자2: ");
 		double num2 = sc.nextDouble();
 		
+		switch(symbol) {
+			case "+" :
+				
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
 		if( symbol.equals("+") ) {
 			System.out.println("결과는: " + (num1+num2) + "입니다." );
 			
@@ -38,7 +55,7 @@ public class Ex15 {         // 계산 할 수 없습니다가 안뜸
 		} else {
 			System.out.println("계산할 수 없는 기호입니다.");
 		}
-		
+		*/
 		
 		sc.close();
 	}

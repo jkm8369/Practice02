@@ -23,6 +23,7 @@ public class Ex18 {
 				
 			default:
 				System.out.println("자음입니다");
+				break;
 		}
 		
 		
